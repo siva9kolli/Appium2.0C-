@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/shiva/Documents/Appium2Version/Appium2Version/Appium2Version.csproj": {}
+  },
+  "projects": {
+    "/Users/shiva/Documents/Appium2Version/Appium2Version/Appium2Version.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shiva/Documents/Appium2Version/Appium2Version/Appium2Version.csproj",
+        "projectName": "Appium2Version",
+        "projectPath": "/Users/shiva/Documents/Appium2Version/Appium2Version/Appium2Version.csproj",
+        "packagesPath": "/Users/shiva/.nuget/packages/",
+        "outputPath": "/Users/shiva/Documents/Appium2Version/Appium2Version/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shiva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.12.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
