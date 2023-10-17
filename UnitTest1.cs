@@ -25,8 +25,7 @@ public class UnitTest1
        // appiumOptions.AddAdditionalAppiumOption("appium:platformName", "Android"); - work
       //  appiumOptions.AddAdditionalAppiumOption("appium:options.platformVersion", "12.0"); - work 
       //  appiumOptions.AddAdditionalAppiumOption("appium:options.app", "/Users/shiva/Documents/Appium2Version/Appium2Version/Naukri.apk"); - work
-
-       // appiumOptions.AddAdditionalAppiumOption("appium:options.automationName", "UiAutomator2"); -- deprecated
+       // appiumOptions.AddAdditionalAppiumOption("appium:options.automationName", "UiAutomator2"); -- not working
 
         androidDriver = new AndroidDriver(new Uri("http://127.0.0.1:4723"), appiumOptions);
 
